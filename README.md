@@ -14,9 +14,9 @@
 
 # 2)What is Future Class ?
 
-->Simply put,the Future class represents a Future result of an Asynchronous computation.
+- Simply put,the Future class represents a Future result of an Asynchronous computation.
 
-->This result will eventually appear in the Future after the processing is complete.
+- This result will eventually appear in the Future after the processing is complete.
 
 # 3)What is Duration class & Future.delayed() constructor with Example ?
 
