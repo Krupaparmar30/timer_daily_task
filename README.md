@@ -11,7 +11,7 @@
 
 ->In traditional synchronous Programming, tasks are executed one after anthoer,and the program waits for each task to finish before proceeding to the next one.
 
-2)#What is Future Class ?
+2)What is Future Class ?
 
 ->Simply put,the Future class represents a Future result of an Asynchronous computation.
 
