@@ -106,6 +106,27 @@ void main()
 
 }
 
+# 7)What is Timer.periodic and use with Example?
+
+A periodic timer is particularly powerful because it allows you to schedule a callback to be executed repeatedly with a specified Duration between each call.
+
+* Example:
+import 'dart:io';
+import 'dart:async';
+
+void main()
+{
+
+   Timer.periodic(
+    
+    Duration(seconds: 1),
+    (timer) {
+      print("Radhe Krishnaa");
+    },
+   );
+
+}
+
 
 
 
