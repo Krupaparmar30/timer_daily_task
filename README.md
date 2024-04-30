@@ -49,13 +49,13 @@ void main()
 
 # 4)What is the Use of the async & await keyword?
 
- * async :->
+ * `async :-`
  
  async keyword is used to mark a function as asynochronous.an asynochronous function can perform tasks that may take some time to complete , such as fetching data from a network or reading from a fils.
 
  ->async keyword allows the function to use the await keyword inside it.
 
- * await :->
+ * `await :-`
 
  The await keyword is used to pause the execution of an asynchronous function until a particular asynchronous operation is completed. It can only be used inside an async function. 
 
