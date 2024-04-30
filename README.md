@@ -19,12 +19,11 @@
 - This result will eventually appear in the Future after the processing is complete.
 
 # 3)What is Duration class & Future.delayed() constructor with Example ?
-
-* Duration class:->
+- `Duration class:-`
 
 The Duration class represtans an interval of time in seconds or nanoseconds and is most suited for handling shorter amounts of time, cases that require more precision.
 
-* Future.delayed() constructor:->
+- `Future.delayed() constructor:-`
 
 Enables you to create a Future that runs its computatioin after a prespecified Duration.
 
