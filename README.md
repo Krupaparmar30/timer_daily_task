@@ -6,7 +6,8 @@
 </p>
 
 # Asynchronous Programming
-1) What is Asynchronous Programming?
+1)What is Asynchronous Programming?
+
 -> Asynchronous Programming is a Programming paradigm that allows tasks or opreations to run independently and concurrently, without waiting for each other to complete before moving on to the next task.
 
 ->In traditional synchronous Programming, tasks are executed one after anthoer,and the program waits for each task to finish before proceeding to the next one.
@@ -17,7 +18,17 @@
 
 ->This result will eventually appear in the Future after the processing is complete.
 
-3) Duration class & Future.delayed() constructor with Example ?
+3)What is Duration class & Future.delayed() constructor with Example ?
+
+* Duration class:->
+
+The Duration class represtans an interval of time in seconds or nanoseconds and is most suited for handling shorter amounts of time, cases that require more precision.
+
+* Future.delayed() constructor:->
+
+Enables you to create a Future that runs its computatioin after a prespecified Duration.
+
+* Example:
 
 void main()
 {
@@ -34,6 +45,41 @@ void main()
   );
 
 }
+
+4)What is the Use of the async & await keyword?
+
+ * async :->
+ 
+ async keyword is used to mark a function as asynochronous.an asynochronous function can perform tasks that may take some time to complete , such as fetching data from a network or reading from a fils.
+
+ ->async keyword allows the function to use the await keyword inside it.
+
+ * await :->
+
+ The await keyword is used to pause the execution of an asynchronous function until a particular asynchronous operation is completed. It can only be used inside an async function. 
+
+ 5)What is Recursion ? With Example.
+
+* A require function is a function that calls itself.The base case is the conditioin when Recursion stops.
+
+* Example :
+
+void main()
+{
+
+  print('hello krupa');
+
+   Timer.periodic(
+    
+    Duration(seconds: 1),
+    (timer) {
+      print("Radhe Krishnaa");
+    },
+   );
+
+}
+
+
 
 
 
