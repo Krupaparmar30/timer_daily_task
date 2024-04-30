@@ -67,24 +67,26 @@ void main()
 
 
 ```bash
+
 void main()
 {
+var count=15;
 
-  print('hello krupa');
+Timer.periodic(Duration(seconds: 1), (timer) {
+  
+  print(timer.tick);
 
-   int factorial(int n)
-   
-   {
+  count--;
+  if(count==0)
+  {
+    print("Thanks for End");
+    timer.cancel();
+  }
+  
+ });
 
-    if(n<=1)
-    {
-       return 1;
-    else
-     {
-       return k*fact(k-1);
-     }
-     }
-   }
+
+
 
 }
 ```
