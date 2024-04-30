@@ -66,6 +66,8 @@ void main()
 
 * Example :
 
+
+```bash
 void main()
 {
 
@@ -86,14 +88,14 @@ void main()
    }
 
 }
-
+```
 
 # 6)What is Timer class with example ?
 
 A Countdown timer that can be configured to fire once or repeatedly.
 
 * Example:
-
+```bash
 void main()
 {
   
@@ -108,6 +110,8 @@ void main()
 
 }
 
+```
+
 # 7)What is Timer.periodic and use with Example?
 
 A periodic timer is particularly powerful because it allows you to schedule a callback to be executed repeatedly with a specified Duration between each call.
@@ -116,6 +120,7 @@ A periodic timer is particularly powerful because it allows you to schedule a ca
 import 'dart:io';
 import 'dart:async';
 
+```bash
 void main()
 {
 
@@ -128,6 +133,8 @@ void main()
    );
 
 }
+
+```
 
 
 
