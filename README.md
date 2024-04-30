@@ -17,4 +17,24 @@
 
 ->This result will eventually appear in the Future after the processing is complete.
 
+3) Duration class & Future.delayed() constructor with Example ?
+
+void main()
+{
+  print('hello dart');
+
+  Future.delayed(
+      
+    Duration(
+      seconds: 1,
+    ),
+    () {
+      print("hello python");
+    },
+  );
+
+}
+
+
+
 
