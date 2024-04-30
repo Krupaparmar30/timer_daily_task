@@ -30,6 +30,7 @@ Enables you to create a Future that runs its computatioin after a prespecified D
 
 * Example:
 
+```bash
 void main()
 {
   print('hello dart');
@@ -45,6 +46,7 @@ void main()
   );
 
 }
+```
 
 # 4)What is the Use of the async & await keyword?
 
