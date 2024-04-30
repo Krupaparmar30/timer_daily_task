@@ -6,19 +6,19 @@
 </p>
 
 # Asynchronous Programming
-1)What is Asynchronous Programming?
+# 1)What is Asynchronous Programming?
 
 -> Asynchronous Programming is a Programming paradigm that allows tasks or opreations to run independently and concurrently, without waiting for each other to complete before moving on to the next task.
 
 ->In traditional synchronous Programming, tasks are executed one after anthoer,and the program waits for each task to finish before proceeding to the next one.
 
-2)What is Future Class ?
+# 2)What is Future Class ?
 
 ->Simply put,the Future class represents a Future result of an Asynchronous computation.
 
 ->This result will eventually appear in the Future after the processing is complete.
 
-3)What is Duration class & Future.delayed() constructor with Example ?
+# 3)What is Duration class & Future.delayed() constructor with Example ?
 
 * Duration class:->
 
@@ -46,7 +46,7 @@ void main()
 
 }
 
-4)What is the Use of the async & await keyword?
+# 4)What is the Use of the async & await keyword?
 
  * async :->
  
@@ -58,7 +58,7 @@ void main()
 
  The await keyword is used to pause the execution of an asynchronous function until a particular asynchronous operation is completed. It can only be used inside an async function. 
 
- 5)What is Recursion ? With Example.
+# 5)What is Recursion ? With Example.
 
 * A require function is a function that calls itself.The base case is the conditioin when Recursion stops.
 
@@ -69,17 +69,42 @@ void main()
 
   print('hello krupa');
 
-   Timer.periodic(
-    
-    Duration(seconds: 1),
-    (timer) {
-      print("Radhe Krishnaa");
-    },
-   );
+   int factorial(int n)
+   
+   {
+
+    if(n<=1)
+    {
+       return 1;
+    else
+     {
+       return k*fact(k-1);
+     }
+     }
+   }
 
 }
 
 
+# 6)What is Timer class with example ?
+
+A Countdown timer that can be configured to fire once or repeatedly.
+
+* Example:
+
+void main()
+{
+  
+  Timer(
+
+    Duration(seconds: 1),
+    () {
+
+    print("hello javaaa");
+    },
+    );
+
+}
 
 
 
