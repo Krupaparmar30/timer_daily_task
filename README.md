@@ -7,9 +7,32 @@
 
 # Asynchronous Programming
 1) What is Asynchronous Programming?
+-> Asynchronous Programming is a Programming paradigm that allows tasks or opreations to run independently and concurrently, without waiting for each other to complete before moving on to the next task.
 
-->
-   Asynchronous Programming is a Programming paradigm that allows tasks or opreations to run independently and concurrently, without waiting for each other to complete before moving on to the next task.
+->In traditional synchronous Programming, tasks are executed one after anthoer,and the program waits for each task to finish before proceeding to the next one.
 
-->
-In traditional synchronous Programming, tasks are executed one after anthoer,and the program waits for each task to finish before proceeding to the next one.
+2)#What is Future Class ?
+
+->Simply put,the Future class represents a Future result of an Asynchronous computation.
+
+->This result will eventually appear in the Future after the processing is complete.
+
+3)#Duration class & Future.delayed() constructor with Example ? ->
+
+import 'dart:io';
+
+void main() {
+
+print('hello dart');
+
+Future.delayed(
+
+Duration(
+  seconds: 1,
+),
+() {
+  print("hello python");
+},
+);
+
+}
