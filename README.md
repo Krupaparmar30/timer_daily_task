@@ -136,12 +136,13 @@ void main()
 }
 
 ```
+* screen_recoding
+https://github.com/Krupaparmar30/timer_daily_task/assets/149374671/16d8a2cf-2df0-4756-8fd2-7a22183b9ee1
+
 # Digital_clock_app
 <p>
   <img src="https://github.com/Krupaparmar30/timer_daily_task/assets/149374671/89a5f9a5-33ea-49b4-a0f6-15c41e9fe533"width=22% height=35%>
 </p>
-* screen_recoding
-https://github.com/Krupaparmar30/timer_daily_task/assets/149374671/16d8a2cf-2df0-4756-8fd2-7a22183b9ee1
 
 
 
