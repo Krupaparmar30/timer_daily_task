@@ -137,6 +137,9 @@ void main()
 
 ```
 
+<p>
+  <img src="https://github.com/Krupaparmar30/timer_daily_task/assets/149374671/89a5f9a5-33ea-49b4-a0f6-15c41e9fe533"width=30% height=28%>
 
+</p>
 
 
