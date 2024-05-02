@@ -18,10 +18,10 @@ class _digitalclockPageState extends State<digitalclockPage> {
        dateTime=DateTime.now();
        if(dateTime.hour>12)
          {
-           time='PM';
+           time='AM';
          }
        else{
-         time='AM';
+         time='PM';
        }
        switch(dateTime.weekday)
        {
