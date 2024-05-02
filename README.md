@@ -137,7 +137,11 @@ void main()
 
 ```
 * screen_recoding
-https://github.com/Krupaparmar30/timer_daily_task/assets/149374671/16d8a2cf-2df0-4756-8fd2-7a22183b9ee1
+
+
+https://github.com/Krupaparmar30/timer_daily_task/assets/149374671/903b0963-f78b-4912-96c5-9ae2f5e0c2b9
+
+
 
 # Digital_clock_app
 <p>
