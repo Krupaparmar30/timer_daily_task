@@ -16,12 +16,12 @@ class _digitalclockPageState extends State<digitalclockPage> {
 
      setState(() {
        dateTime=DateTime.now();
-       if(dateTime.hour>12)
+       if(dateTime.hour>11)
          {
-           time='PM';
+           time='AM';
          }
        else{
-         time='AM';
+         time='PM';
        }
        switch(dateTime.weekday)
        {
@@ -84,7 +84,7 @@ class _digitalclockPageState extends State<digitalclockPage> {
       body: Column(
         children: [
           Container(
-            height: 781,
+            height: 678,
             width: 500,
             decoration: BoxDecoration(
               color: Colors.pink,

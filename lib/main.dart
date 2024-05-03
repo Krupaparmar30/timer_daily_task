@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:timer_daily_task/daliy_task/Analog_clock_app/analog_clock.dart';
 import 'package:timer_daily_task/daliy_task/Gigital_Time_Clock/digitalclock.dart';
 import 'package:timer_daily_task/daliy_task/flutter_buttons/fluffer_button.dart';
 void main()
 {
-  runApp(digitalApp());
+  runApp(analogApp());
 }
-class digitalApp extends StatelessWidget {
-  const digitalApp({super.key});
+class analogApp extends StatelessWidget {
+  const analogApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +15,9 @@ class digitalApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         // '/':(context) => buttonsPage(),
-        '/':(context) => digitalclockPage(),
+        // '/':(context) => digitalclockPage(),
+        '/':(context) => analogPage(),
+
 
       },
     );
