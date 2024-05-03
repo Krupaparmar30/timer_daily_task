@@ -151,6 +151,10 @@ https://github.com/Krupaparmar30/timer_daily_task/assets/149374671/903b0963-f78b
 
 # Analog_clock_app
 
+* screen_recoding
+
+https://github.com/Krupaparmar30/timer_daily_task/assets/149374671/e8cbf3bf-1da1-4b64-9a38-9cf44a873122
+
 
 <p>
    <img src="https://github.com/Krupaparmar30/timer_daily_task/assets/149374671/daa6b9ea-b3fc-4c2e-b8e2-ff3252c198f4"width=22% height=35%>
