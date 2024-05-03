@@ -149,6 +149,11 @@ https://github.com/Krupaparmar30/timer_daily_task/assets/149374671/903b0963-f78b
   <img src="https://github.com/Krupaparmar30/timer_daily_task/assets/149374671/89a5f9a5-33ea-49b4-a0f6-15c41e9fe533"width=22% height=35%>
 </p>
 
+# Analog_clock_app
 
+
+<p>
+   <img src="https://github.com/Krupaparmar30/timer_daily_task/assets/149374671/daa6b9ea-b3fc-4c2e-b8e2-ff3252c198f4"width=22% height=35%>
+</p>
 
 
