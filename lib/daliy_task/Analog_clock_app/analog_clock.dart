@@ -209,7 +209,6 @@ class _analogPageState extends State<analogPage> {
                               endIndent: 80,
                             ),
                           ),
-
                           Transform.rotate(
                             angle:
                             ((dateTime.second*6*pi)/180),
