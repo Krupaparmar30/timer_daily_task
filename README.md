@@ -160,4 +160,15 @@ https://github.com/Krupaparmar30/timer_daily_task/assets/149374671/e8cbf3bf-1da1
    <img src="https://github.com/Krupaparmar30/timer_daily_task/assets/149374671/daa6b9ea-b3fc-4c2e-b8e2-ff3252c198f4"width=22% height=35%>
 </p>
 
+# All_task
+
+<p>
+
+  <img src="https://github.com/Krupaparmar30/timer_daily_task/assets/149374671/4d6ec521-d062-434d-8227-c9979450bc52">
+  <img src="https://github.com/Krupaparmar30/timer_daily_task/assets/149374671/d979c830-6afa-46c4-a8a3-bafa68423b46">
+  <img src="https://github.com/Krupaparmar30/timer_daily_task/assets/149374671/d207a81c-e743-479f-b346-8e388b34bd6c">
+
+</p>
+
+
 
