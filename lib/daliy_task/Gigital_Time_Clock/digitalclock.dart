@@ -84,8 +84,8 @@ class _digitalclockPageState extends State<digitalclockPage> {
       body: Column(
         children: [
           Container(
-            height: 678,
-            width: 500,
+            height: 762,
+            width: double.infinity,
             decoration: BoxDecoration(
               color: Colors.pink,
               image: DecorationImage(
@@ -104,7 +104,7 @@ class _digitalclockPageState extends State<digitalclockPage> {
                   //   fontSize: 32
                   // ),),
                 Padding(
-                  padding: const EdgeInsets.only(left: 100),
+                  padding: const EdgeInsets.only(left: 130,top: 50),
                   child: Row(
                     children: [
                       Text('${dateTime.hour%12}:${dateTime.minute}:${dateTime.second}',style: TextStyle(
@@ -131,11 +131,40 @@ class _digitalclockPageState extends State<digitalclockPage> {
                      ],
                    ),
                  ),
-                  Text('${day}',style: TextStyle(color: Colors.white),)
+                  Text('${day}',style: TextStyle(color: Colors.white),),
+                  Padding(
+                    padding: const EdgeInsets.only(top: 500),
+                    child: Container(
+                      height: 65,
+                      width: 150,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20),
+                        border: Border.all(color: Colors.black,width: 2),
+                        gradient: LinearGradient(
+                          colors: [
+                          Colors.grey,
+                            Colors.white
+                          ]
+                        )
+                      ),
+                      child: Center(child: GestureDetector(
+                        onTap: () {
+
+                          Navigator.of(context).pushNamed('/analog');
+                        },
+                        child: Text('Analog Clock',style: TextStyle(
+                          fontSize: 18,fontWeight: FontWeight.bold
+                        ),),
+                      )),
+                    ),
+                  )
                 ],
               ),
             ),
-          )
+
+
+          ),
+
         ],
       ),
     );

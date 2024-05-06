@@ -86,7 +86,7 @@ class _analogPageState extends State<analogPage> {
       body: Column(
         children: [
           Container(
-            height: 781.5,
+            height: 762,
             width: 500,
             decoration: BoxDecoration(
                 color: Colors.pink,
@@ -197,6 +197,7 @@ class _analogPageState extends State<analogPage> {
                               indent: 40,
                               endIndent: 80,
                             ),
+
                           ),
 
                           Transform.rotate(
@@ -222,8 +223,37 @@ class _analogPageState extends State<analogPage> {
                           ),
                         ],
                       ),
+
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(top: 300),
+                    child: Container(
+                      height: 65,
+                      width: 150,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          border: Border.all(color: Colors.black,width: 2),
+                          gradient: LinearGradient(
+                              colors: [
+                                Colors.grey,
+                                Colors.white
+                              ]
+                          )
+                      ),
+                      child: Center(child: GestureDetector(
+                        onTap: () {
+
+                          Navigator.of(context).pushNamed('/analog');
+                        },
+                        child: Text('Strap Clock',style: TextStyle(
+                            fontSize: 18,fontWeight: FontWeight.bold
+                        ),),
+                      )),
                     ),
                   )
+
+
                 ],
               ),
             ),
